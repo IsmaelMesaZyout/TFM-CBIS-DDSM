@@ -1,0 +1,84 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Dataset CBIS-DDSM
+CBIS-DDSM/
+cbis-ddsm/
+data/
+dataset/
+datasets/
+
+# Imágenes médicas
+*.dcm
+*.dicom
+
+# Datos procesados
+experimento_concatenado/
+mejorado_detect/
+roi_dataset/
+dataset_roi/
+dataset_deteccion/
+dataset_detection/
+
+# Resultados
+runs/
+runs_detect/
+runs_classify/
+results/
+resultados/
+outputs/
+output/
+
+# Modelos
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.keras
+*.onnx
+
+weights/
+checkpoints/
+models/
+
+# Logs
+*.log
+logs/
+
+# Temporales
+*.tmp
+*.temp
+*.bak
+
+# Caché
+.cache/
+.pytest_cache/
+
+# Archivos comprimidos
+*.zip
+*.rar
+*.7z
+*.tar
+*.tar.gz
+
+# Variables de entorno
+.env
+.env.*
